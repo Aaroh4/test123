@@ -1,4 +1,4 @@
-
+```
 void Player::move(const float &dir_x, const float &dir_y, float deltaTime)
 {
 	this->_velocity.x += dir_x * this->_acceleration * deltaTime;
@@ -59,3 +59,4 @@ void Player::checkCollision(const std::vector<sf::RectangleShape> &blocks, float
 			break ;
 		}
 }
+```
